@@ -2,20 +2,49 @@
 /* Imported link to Google Fonts Roboto, with extra weights added. Also as2nd font called Exo - NOTE the 'pipe' seperater */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+/*----------------------------------------COLORS-------------------------------*/
+
+.bg-color-name-title {
+    background-color: #bf8c25;
+}
+
+/*----------------------------------------HEADINGS-----------------------------*/
+
+
 header {
     margin: 0;
 }
 
+.heading {
+    margin-left: 50px;
+}
+
 .logo {
-    background: url("../images/CVProfilePic.jpg");
+   background: url("../images/CVProfilePic.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-   
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #dee2e6;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #343a40;
+}
