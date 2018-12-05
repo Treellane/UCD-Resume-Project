@@ -1,9 +1,11 @@
-# UCD - Resume
+# Resume project for the Code Institute
 
-## Recume project for the Code Institute
 ## The "Putting it all together" project.
 
+
 Following the video guides to complile a Resume Website.
+
+Using Bootsrap preset codes as the foundations for the website.
 
 ### Head Links
 - Links to external Bootstrap and FontAwesome taken from BootStrapCDN.com
@@ -21,5 +23,6 @@ Following the video guides to complile a Resume Website.
     
 
 ##### Variance from the Video Code
-- My heaading, and the text within it, are a different colour (done to suit my photo colour better!)
-
+- Used my own profile image.
+- My heaading, and the text within it, are a different colour (done to suit my photo colour better!).
+- Changed menu background colours - just to see if I could after testing out colours with Dev tools!
