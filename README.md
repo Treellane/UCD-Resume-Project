@@ -10,6 +10,7 @@ Using Bootsrap preset codes as the foundations for the website.
 ### Head Links
 - Links to external Bootstrap and FontAwesome taken from BootStrapCDN.com
 - Link to internal style.css file
+- Link to Hover.CSS for effects on the menu buttons
 
 
 #### Issues encountered
@@ -20,6 +21,11 @@ Using Bootsrap preset codes as the foundations for the website.
  
     Haley (from Tutor support) noticed I had Bootsrap 4.1.3 - as that is what the link in the 
     video brought me to! But in the video is was 3.7.7 Bootsrap!
+
+- The Hover.CSS effect didn't cover the full width of the menu options/buttons. 
+    The Video tutorial had this issue too, solved by adding {padding: 0;} to #nav li 
+    This didn't seem to solve this for me!!!...
+    ...BUT, then I discovered that it did in Safari, but not in Google Chrome.
     
 
 ##### Variance from the Video Code
