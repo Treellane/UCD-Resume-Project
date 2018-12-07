@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*----------------------------------------COLORS-------------------------------*/
+/*---------------------------------------COLORS-------------------------------*/
 
 .bg-color-name-title {
     background-color: #bf8c25;
@@ -25,7 +25,24 @@
     background-color: #e22f06;
 }
 
-/*----------------------------------------HEADINGS-----------------------------*/
+/*-------------------------SPECIAL / PADDING / MARGIN/  TEXT------------------*/
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #dee2e6;
+}
+
+
+/*----------------------------------------HEADINGS----------------------------*/
 
 
 header {
@@ -66,7 +83,7 @@ header {
 }
 
 
-/*-------------------------------------MENU BAR--------------------------------*/
+/*------------------------------------MENU BAR--------------------------------*/
 
 
 #nav {
@@ -118,4 +135,13 @@ header {
    Also a nice color idea for the menu items!!!!  */
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*----------------------------------------FOOTER------------------------------*/
+
+footer {
+    background-color: #bf8c25;
+    color: #dee2e6;
+    min-height: 120px;
+    margin: 0;
 }
