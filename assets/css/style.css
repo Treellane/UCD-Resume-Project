@@ -9,6 +9,10 @@
     background-color: #bf8c25;
 }
 
+.bg-color-three-reasons {
+    background-color: #dee2e6;
+}
+
 .ui-menu-color-home {
     background-color: #563f10;
 }
@@ -39,6 +43,23 @@ h1,h2,h3,h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #dee2e6;
+}
+
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .inline-block {
