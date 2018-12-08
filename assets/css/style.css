@@ -41,7 +41,13 @@ h1,h2,h3,h4 {
     color: #dee2e6;
 }
 
+.inline-block {
+    display: inline-block;
+}
 
+#footer-details {
+    margin: 25px;
+}
 /*----------------------------------------HEADINGS----------------------------*/
 
 
@@ -144,4 +150,44 @@ footer {
     color: #dee2e6;
     min-height: 120px;
     margin: 0;
+}
+
+footer .cv-pdf i {
+    color: #dee2e6;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover {
+    color: #e22f06;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+
+}
+/*This line of code seems irrelivent to me!!! But it's in the tutorial video!!!*/
+footer .social-links li a i {
+     padding-bottom: 15px;
+}
+
+footer .social-links li a i {
+    width: 34px;
+    height: 34px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 11px;
+    text-align: center;
+    color: #dee2e6;
+    background: #563f10;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+footer .social-links li a i:hover {
+    background: #e22f06;
 }

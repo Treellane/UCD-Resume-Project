@@ -32,3 +32,4 @@ Using Bootsrap preset codes as the foundations for the website.
 - Used my own profile image.
 - My heaading, and the text within it, are a different colour (done to suit my photo colour better!).
 - Changed menu background colours - just to see if I could after testing out colours with Dev tools!
+- My footer, and hte text within it, are aa different colour (done to suit my photo colour better!).
