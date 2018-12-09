@@ -29,6 +29,10 @@
     background-color: #e22f06;
 }
 
+.bg-color-personnal-info {
+    background-color: #ef8834;
+}
+
 /*-------------------------SPECIAL / PADDING / MARGIN/  TEXT------------------*/
 
 h1,h2,h3,h4 {
@@ -45,12 +49,6 @@ h1,h2,h3,h4 {
     color: #dee2e6;
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}
-
 .row-table {
     display: table;
 }
@@ -60,6 +58,7 @@ h1,h2,h3,h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+    padding: 0;
 }
 
 .inline-block {
@@ -192,7 +191,7 @@ footer .social-links li a i {
 footer .social-links li a i {
     width: 34px;
     height: 34px;
-    padding: 12px 0;
+    padding:12px 0;
     border-radius: 50%;
     font-size: 14px;
     line-height: 11px;
@@ -218,8 +217,62 @@ footer .social-links li a i:hover {
 .three-reasons-icon {
     font-size: 26px;
     color: #563f10;
+    
 }
 
 .three-reasons-heading {
     margin-bottom: 15px;
 }
+
+/*-------------------------------PERSONNAL INFO-------------------------------*/
+
+.personnal-info-item {
+    margin-bottom: 20px;
+    display: block; /* Item will take up the whole line it is on, filling it's line */
+    clear: both; /* No items will appear either sdie, as both sides are 'cleared' */
+    
+}
+
+.personnal-info-item .key,
+.personnal-info-item .value {
+    padding-right: 8px;
+}
+
+.personnal-info-item .key p,
+.personnal-info-item .value p {
+   margin: 0;
+}
+
+.personnal-info-item .key {
+    display: inline-block; /* Allows items to be lined up beside eachother on the same line */
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personnal-info-item .key p {
+    font-weight: 700;
+    
+}
+
+.personnal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+
+/*-------------------------------MEDIA QUERIES--------------------------------*/
+
+/* This media query mean that any screen over 992px, the .section-column rule will apply  */
+/* Allpying this rule will fix the mis-allignment of the middle section (where Personnal Info is) of the web pages */
+@media (min-width: 992px) {
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+}  
+
+
