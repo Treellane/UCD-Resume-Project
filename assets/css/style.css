@@ -65,10 +65,6 @@ h1,h2,h3,h4 {
 .inline-block {
     display: inline-block;
 }
-
-#footer-details {
-    margin: 25px;
-}
 /*----------------------------------------HEADINGS----------------------------*/
 
 
@@ -211,4 +207,19 @@ footer .social-links li a i {
 
 footer .social-links li a i:hover {
     background: #e22f06;
+}
+
+#footer-details {
+    margin: 25px;
+}
+
+/*-------------------------THREE REASONS SECTION------------------------------*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #563f10;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
