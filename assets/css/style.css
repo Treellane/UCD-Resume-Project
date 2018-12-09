@@ -33,6 +33,10 @@
     background-color: #ef8834;
 }
 
+.bg-color-work-history {
+    background-color: #fbc223;
+}
+
 /*-------------------------SPECIAL / PADDING / MARGIN/  TEXT------------------*/
 
 h1,h2,h3,h4 {
@@ -285,6 +289,60 @@ footer .social-links li a i:hover {
                                                 So we don't get a 'shadow' around the text within the progress bar*/
 }
 
+/*-----------------------------------WORK HISTORY-----------------------------*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #563f10;
+    border-left: 1px solid; /* Displaying ONLY the left border gives the 'timeline' effect on our page */
+}
+
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.timeline-item::before {  /* Not sure now '::before' works... Was not explained in the tutorila videos - it was just used! (as was '::after' */ 
+    content: attr(dates);  /* This will target the attribute (in this case 'dates') from within the listed attributes for an element */
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+} 
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px; 
+    content: '';   /* The content is empty, but we need to specify it to make the barder appear around it! */
+    background-color: #563f10;
+}
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.history-jobs{
+    margin-bottom: 35px;
+}
+
+
 /*-------------------------------MEDIA QUERIES--------------------------------*/
 
 /* This media query mean that any screen over 992px, the .section-column rule will apply  */
@@ -294,7 +352,6 @@ footer .social-links li a i:hover {
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
-}
-}  
+} }  
 
 
