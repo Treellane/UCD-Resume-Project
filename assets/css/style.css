@@ -372,7 +372,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #ef8834;
-    color: #ffffff;    
+    color: #ffffff; 
 }
 
 
@@ -393,4 +393,5 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+}
 }
