@@ -37,6 +37,10 @@
     background-color: #fbc223;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
 /*-------------------------SPECIAL / PADDING / MARGIN/  TEXT------------------*/
 
 h1,h2,h3,h4 {
@@ -71,6 +75,12 @@ h1,h2,h3,h4 {
 
 .progress-section {
     margin-top: 25px;
+}
+
+.scrollbar {  /* Basic scrollbar added to stop the work history making the pag too long!!! */
+    height: 350px;
+    overflow: auto;
+    padding: 15px;
 }
 
 /*----------------------------------------HEADINGS----------------------------*/
@@ -340,7 +350,31 @@ footer .social-links li a i:hover {
 
 .history-jobs{
     margin-bottom: 35px;
+    
 }
+
+/*-------------------------------CONTACT PAGE---------------------------------*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ef8834;
+    color: #ffffff;    
+}
+
 
 
 /*-------------------------------MEDIA QUERIES--------------------------------*/
@@ -348,10 +382,15 @@ footer .social-links li a i:hover {
 /* This media query mean that any screen over 992px, the .section-column rule will apply  */
 /* Allpying this rule will fix the mis-allignment of the middle section (where Personnal Info is) of the web pages */
 @media (min-width: 992px) {
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-} }  
-
-
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }  
+    
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+}
