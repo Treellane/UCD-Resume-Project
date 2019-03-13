@@ -1,6 +1,8 @@
 # Resume project for the Code Institute
 
-## The "Putting it all together" project.
+## The "Putting it all together" project
+## WITH THE ADD-ON OF INTERACTICE FEATURES 
+### from the java/json/ajax part of the course
 
 
 Following the video guides to complile a Resume Website.

@@ -62,110 +62,86 @@
     </header>
     
     <section class="container-fluid">
-<!-- section-column is a Bootstrap command that helps sections (cells) within a row to stay the same height!  -->        
         <div class="row row-table">
-            
-            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-personnal-info section-column">
+            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-conferences section-column">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="section-heading uppercase">Personnal Info</h3>
+                        <h3 class="section-heading uppercase">Conferences and Meetups attended</h3>
                     </div>
                 </div>
-                
-                <div class="personnal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Name:</p>
-                    </div>
-                    <div class="value">
-                        <p>David Kelly</p>
-                    </div>
-                </div>
-                <div class="personnal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Address:</p>
-                    </div>
-                    <div class="value">
-                        <p>Co. Westmeath, Ireland</p>
-                    </div>
-                </div>
-                <div class="personnal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Phone:</p>
-                    </div>
-                    <div class="value">
-                        <p>555-1701</p>
-                    </div>
-                </div>
-                <div class="personnal-info-item">
-                    <div class="key">
-                        <p class="uppercase">Email:</p>
-                    </div>
-                    <div class="value">
-                        <p>treellane@yahoo.co.uk</p>
-                    </div>
-                </div>
+                <div id="map"></div>            <!--THIS IS THE DIV ID THAT JAVASCRIPT WILL CALL TO INSERT A GOOGLE MAP -->
             </div>
-            
-            <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
+            <div class="col-xs-12 col-sm-12 col-md-8 bg-color-groups section-column">
                 <div class="row">
                     <div class="col-md-12">
-                       <h3 class="section-heading uppercase">About Me</h3>
+                        <h3 class="section-heading uppercase"> My groups and societies</h3>
                     </div>
                 </div>
-                
-                
                 <div class="row">
-                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
-                            <div class="col-xs-2 col-sm-2 col-md-2">
-                                    <i class="three-reasons-icon fa fa-question" aria-hidden="true"></i>
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
                             </div>
-                                 
                             <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading uppercase">What do I do?</h4> 
-                                <p>  
-                                    I'm a Full Stack Developer, with a wealth of exeperience in life and
-                                    love, but a lack of experience in all areas of web development. 
+                                <h4 class="three-reasons-heading uppercase">Coding Grace</h4>
+                                <p>
+                                    Coding Grace are a group of developers based in Ireland who love to code and do other geeky and not necessarily crafty activities. Some of us code full-time, or just for fun (or both). We have people who are part of other technical user groups such as
+                                    Dublin ALT.NET, GameCraft, Python Ireland, Ruby Ireland and more.
+                                    <a href="https://codinggrace.com/" target="_blank">Coding Grace</a>
                                 </p>
-                            </div>   
+                            </div>
                         </div>
                     </div>
-                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
-                            <div class="col-xs-2 col-sm-2 col-md-2">
-                                    <i class="three-reasons-icon fa fa-thumbs-up" aria-hidden="true"></i>
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
                             </div>
-                                 
                             <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading uppercase">How do I do it??</h4> 
-                                <p>  
-                                    I know form as well as function!... I know that the aesthetics
-                                    of effective design, combined with application speed, sucurity and reliability, combine
-                                    to give the best over all user experience...
+                                <h4 class="three-reasons-heading uppercase">Django Girls</h4>
+                                <p>
+                                    Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support. We are a volunteer run organization with hundreds of people contributing
+                                    to bring more amazing women into the world of technology.
+                                    <a href="https://djangogirls.org/" target="_blank">Django Girls</a>
                                 </p>
-                            </div>   
+                            </div>
                         </div>
                     </div>
-                     <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
                         <div class="row">
-                            <div class="col-xs-2 col-sm-2 col-md-2">
-                                    <i class="three-reasons-icon fa fa-bolt" aria-hidden="true"></i>
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
                             </div>
-                                 
                             <div class="col-xs-10 col-sm-10">
-                                <h4 class="three-reasons-heading uppercase">Why hire me?</h4> 
-                                <p>  
-                                    Why not?... I'm the best there is out there at the moment 
-                                    accross the whole stack. Solo or in a team, I'm the leader who
-                                    will get your project finihsed before you askd me to start!
-                                    Fast, steady, reliable, honest.... Total legend. 'nough said. 
+                                <h4 class="three-reasons-heading uppercase">Full Stack NY</h4>
+                                <p>
+                                    Our meetup is an event where web designers and developers can come together to learn from and teach each other about emerging technologies. While speakers at Full Stack focus primarily on angularjs, react, node, hapiJS, espress, plain ole' JavaScript,
+                                    HTML, and CSS, we encourage all local web professionals to join us for vivid discussions around technology across the stack in any language.
+                                    <a href="https://www.meetup.com/javascript-full-stack-development/" target="_blank">Full Stack NY</a>
                                 </p>
-                            </div>   
+                            </div>
                         </div>
                     </div>
-                </div>  
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2  col-md-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-10 col-sm-10">
+                                <h4 class="three-reasons-heading uppercase">IoT Nation</h4>
+                                <p>
+                                    IoT Nation's mission is to inspire, engage, and connect entrepreneurs, investors, professionals, & enthusiasts worldwide who are active in the Internet of Things (IoT). This group is for professionals and enthusiasts in the Internet of Things. We welcome
+                                    those who want to learn about this emerging field which is fascinating as IoT makes use of a diverse range of technologies and has the promise to impact a vast number of vertical markets.
+                                    <a href="https://www.meetup.com/NYCIOT/" target="_blank">IoT Nation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>  
+        </div>
     </section>
     
     <footer class="container-fluid">
@@ -201,5 +177,16 @@
         
     </footer>
     
+    
+    <!-- this script will add the clusters/markers jsfile to our google map-->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+   
+    <!-- This script s the actual goole maps api file - we incert our api key in to this-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe9jmP_YNxLE17Z0Np9izG2YiU22Rh5T8&callback=initMap" async defer></script>
+
+    <!--script tag to log the maps.js file where all our javascript is that will load our google map -->
+    <script src="assets/js/maps.js"></script>
 </body>
 </html>
+
+

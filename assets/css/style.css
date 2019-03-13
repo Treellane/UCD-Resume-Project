@@ -25,6 +25,14 @@
     background-color: #ff8100;
 }
 
+.ui-menu-color-interests {
+    background-color: #fbc223;
+}
+
+.ui-menu-color-github {
+    background-color: #563f10;
+}
+
 .ui-menu-color-cv {
     background-color: #e22f06;
 }
@@ -174,7 +182,7 @@ header {
 .hvr-sweep-to-bottom:before {
    /* background:  #bf8c25;
    Also a nice color idea for the menu items!!!!  */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     height: 120px;
 }
 
@@ -377,6 +385,13 @@ button[type="submit"] {
 
 
 
+/*-------EXTRA LINE OF CODE NEEDE TO MAP RENDER THE GOOGLE MAP----------------*/
+
+div#map {
+    min-height: 360px;
+}
+
+
 /*-------------------------------MEDIA QUERIES--------------------------------*/
 
 /* This media query mean that any screen over 992px, the .section-column rule will apply  */
@@ -395,3 +410,4 @@ button[type="submit"] {
         max-width: 50%;
 }
 }
+
