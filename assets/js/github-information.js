@@ -68,12 +68,15 @@ $.when(
             if (errorResponse.status === 404) {
                 $("#gh-user-data").html(
                     `<h2>No info found for user ${username}</h2>`);
-            } else {
+            } else if(errorResponse.status === 403) {
+                var resetTime = new Date(errorResponse.getResponseHeader('X-RateLimit-Reset')*1000);
+                $("#gh-user-data").html(`<h4>Too many requests send to GitHub. Please wait until ${resetTime.toLocaleTimeString()}, ${resetTime.toLocaleDateString()}.</h4>`);
+            }else {
                 console.log(errorResponse);
                 $("#gh-user-data").html(
                     `<h2>Error: ${errorResponse.responseJSON.message}</h2>`);
             }
         });
-}
+}   
 
 $(document).ready(fetchGithubInformation);

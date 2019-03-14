@@ -17,7 +17,13 @@
     <!-- The meta link tag to ensure the website renders properly on mobile devices -->    
         <meta name="viewport" content="width=decivce-width, initial-scale-1">
         
-        
+    <!-- Link to EmailJS to make the email form on the Contact page work-->    
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init("user_g54wbVhrPCXlCRKrzXWCX");
+                })();
+</script>   
 
     <title>UCD - Resume Project</title>
 </head>
@@ -67,10 +73,10 @@
             <div>
                 <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
                 <h5 class="uppercase text-center">Let's work together!</h5>
-            </div>
+            </div>  
         
             <div class="center-form">
-                <form>
+                <form onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" class="form-control" id="full-name" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project discription summary..." required></textarea>
@@ -114,5 +120,7 @@
         
     </footer>
     
+    <script src="assets/js/sendEmail.js"></script>
+       
 </body>
 </html>
